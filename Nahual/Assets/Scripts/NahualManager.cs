@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MinotaurManager : MonoBehaviour 
+public class NahualManager : MonoBehaviour 
 {
 	public float speedX; //Velocidad en eje x
 	public float jumpSpeedY; //velocidad de salto
