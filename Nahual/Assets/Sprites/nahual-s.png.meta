@@ -1,7 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: e36f15ca90ae12c4abbf5ce27fe723d3
 TextureImporter:
   fileIDToRecycleName: {}
+=======
+guid: f49cbf3cd1a737a4599391dc155a4c8b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nahual-s_0
+    21300002: nahual-s_1
+>>>>>>> bdd029bdd67c367f28181fdd8b95a5ae09bd7f37
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> bdd029bdd67c367f28181fdd8b95a5ae09bd7f37
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -74,6 +87,66 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: ebbee426430593e41962e8deeb889595
+=======
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nahual-s_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 50
+        width: 197
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73fbc357912e254ba4696b6b933e887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nahual-s_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 50
+        width: 236
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241508cf56870224abbd65c85a104221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c340b602881d58c44af833e947bf7eb9
+>>>>>>> bdd029bdd67c367f28181fdd8b95a5ae09bd7f37
     vertices: []
     indices: 
     edges: []
