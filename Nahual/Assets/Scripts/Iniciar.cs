@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScreenManager : MonoBehaviour {
+public class Iniciar : MonoBehaviour {
 	
 	void Update() {
-		if (Input.GetKeyDown (KeyCode.Space))
+		if (Input.GetKeyDown (KeyCode.A))
 			SceneManager.LoadScene ("Bioma1", LoadSceneMode.Single);
 	}
 }
