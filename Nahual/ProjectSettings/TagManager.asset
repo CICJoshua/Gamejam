@@ -9,6 +9,7 @@ TagManager:
   - peyote_verde
   - peyote_rosa
   - peyote_dorado
+  - peyote_naranja
   layers:
   - Default
   - TransparentFX
