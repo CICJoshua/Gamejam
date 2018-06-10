@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4921703616446584}
   - component: {fileID: 50718582486698980}
-  - component: {fileID: 60147272279507412}
   - component: {fileID: 212748106012708660}
+  - component: {fileID: 58207439646062096}
   m_Layer: 0
   m_Name: Bolsa
   m_TagString: Untagged
@@ -62,8 +62,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60147272279507412
-PolygonCollider2D:
+--- !u!58 &58207439646062096
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -75,22 +75,8 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3, y: 0.5}
-    newSize: {x: 0.3, y: 0.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!212 &212748106012708660
 SpriteRenderer:
   m_ObjectHideFlags: 1
