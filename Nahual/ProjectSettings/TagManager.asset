@@ -6,6 +6,9 @@ TagManager:
   tags:
   - GROUND
   - Ground
+  - peyote_verde
+  - peyote_rosa
+  - peyote_dorado
   layers:
   - Default
   - TransparentFX
