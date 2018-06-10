@@ -5,6 +5,7 @@ using UnityEngine;
 public class Contador : MonoBehaviour {
 
 	public int p1, p2, p3;
+	public GameObject Peyote;
 	
 	void Awake(){
 		p1=0;
@@ -24,8 +25,8 @@ public class Contador : MonoBehaviour {
 	}
 	*/
 
-	void OnTriggerEnter(Collider other){
-		Destroy (other.gameObject);
+	public void OnTriggerEnter(Collider other){
+		Peyote.SetActive (false);
 		p3++;
 	}
 }
