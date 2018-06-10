@@ -9,46 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1875820964617952}
+  m_RootGameObject: {fileID: 1603328696493434}
   m_IsPrefabParent: 1
---- !u!1 &1875820964617952
+--- !u!1 &1603328696493434
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4557980555819462}
-  - component: {fileID: 212734604072292266}
-  - component: {fileID: 60108106217784542}
-  - component: {fileID: 50659381775584700}
+  - component: {fileID: 4058978290409814}
+  - component: {fileID: 212548362792339776}
+  - component: {fileID: 60199917809970584}
+  - component: {fileID: 50221063563231542}
   m_Layer: 0
-  m_Name: piedra2
+  m_Name: piedra2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4557980555819462
+--- !u!4 &4058978290409814
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875820964617952}
-  m_LocalRotation: {x: -0, y: -0, z: 0.28589895, w: 0.9582598}
-  m_LocalPosition: {x: -288.2, y: -59.3, z: 0}
-  m_LocalScale: {x: 15.97, y: 14.8, z: 15}
+  m_GameObject: {fileID: 1603328696493434}
+  m_LocalRotation: {x: -0, y: -0, z: 0.078882106, w: 0.996884}
+  m_LocalPosition: {x: -286.6, y: -78.4, z: 0}
+  m_LocalScale: {x: 27.6, y: 35.2, z: 15}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 33.225002}
---- !u!50 &50659381775584700
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 9.049001}
+--- !u!50 &50221063563231542
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875820964617952}
+  m_GameObject: {fileID: 1603328696493434}
   m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -62,12 +62,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60108106217784542
+--- !u!60 &60199917809970584
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875820964617952}
+  m_GameObject: {fileID: 1603328696493434}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -174,12 +174,12 @@ PolygonCollider2D:
       - {x: -1.63, y: -0.195}
       - {x: -1.6899999, y: -0.185}
       - {x: -1.6899999, y: -0.195}
---- !u!212 &212734604072292266
+--- !u!212 &212548362792339776
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875820964617952}
+  m_GameObject: {fileID: 1603328696493434}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
